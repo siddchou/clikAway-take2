@@ -1,0 +1,29 @@
+
+{
+    "clikawayApp": {
+        "contractor" : {
+            "home": {
+                "title": "Contractors",
+                "createLabel": "Créer un nouveau Contractor",
+                "createOrEditLabel": "Créer ou éditer un Contractor",
+                "search": "Recherche pour Contractor"
+            },
+            "created": "Un nouveau Contractor a été créé avec l'identifiant {{ param }}",
+            "updated": "Le Contractor avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le Contractor avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Contractor {{ id }} ?"
+            },
+            "detail": {
+                "title": "Contractor"
+            },
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "email": "Email",
+            "phoneNumber": "Phone Number",
+            "hireDate": "Hire Date",
+            "startDate": "Start Date",
+            "endDate": "End Date"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+
+{
+    "clikawayApp": {
+        "rate" : {
+            "home": {
+                "title": "Rates",
+                "createLabel": "Créer un nouveau Rate",
+                "createOrEditLabel": "Créer ou éditer un Rate",
+                "search": "Recherche pour Rate"
+            },
+            "created": "Un nouveau Rate a été créé avec l'identifiant {{ param }}",
+            "updated": "Le Rate avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le Rate avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Rate {{ id }} ?"
+            },
+            "detail": {
+                "title": "Rate"
+            },
+            "rateName": "Rate Name",
+            "rateDesc": "Rate Desc",
+            "fullRate": "Full Rate",
+            "idleRate": "Idle Rate"
+        }
+    }
+}

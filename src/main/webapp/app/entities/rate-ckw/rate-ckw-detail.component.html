@@ -1,0 +1,39 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="rate">
+            <h2><span jhiTranslate="clikawayApp.rate.detail.title">Rate</span> {{rate.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="clikawayApp.rate.rateName">Rate Name</span></dt>
+                <dd>
+                    <span>{{rate.rateName}}</span>
+                </dd>
+                <dt><span jhiTranslate="clikawayApp.rate.rateDesc">Rate Desc</span></dt>
+                <dd>
+                    <span>{{rate.rateDesc}}</span>
+                </dd>
+                <dt><span jhiTranslate="clikawayApp.rate.fullRate">Full Rate</span></dt>
+                <dd>
+                    <span>{{rate.fullRate}}</span>
+                </dd>
+                <dt><span jhiTranslate="clikawayApp.rate.idleRate">Idle Rate</span></dt>
+                <dd>
+                    <span>{{rate.idleRate}}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/rate-ckw', rate.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

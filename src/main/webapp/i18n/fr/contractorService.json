@@ -1,0 +1,27 @@
+
+{
+    "clikawayApp": {
+        "contractorService" : {
+            "home": {
+                "title": "ContractorServices",
+                "createLabel": "Créer un nouveau Contractor Service",
+                "createOrEditLabel": "Créer ou éditer un Contractor Service",
+                "search": "Recherche pour Contractor Service"
+            },
+            "created": "Un nouveau Contractor Service a été créé avec l'identifiant {{ param }}",
+            "updated": "Le Contractor Service avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le Contractor Service avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Contractor Service {{ id }} ?"
+            },
+            "detail": {
+                "title": "Contractor Service"
+            },
+            "isVerified": "Is Verified",
+            "startDate": "Start Date",
+            "endDate": "End Date",
+            "contractor": "Contractor",
+            "services": "Services"
+        }
+    }
+}

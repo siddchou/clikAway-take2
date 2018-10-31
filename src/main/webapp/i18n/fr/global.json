@@ -7,6 +7,18 @@
             "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
             "entities": {
                 "main": "Entités",
+                "categoryCkw": "Category",
+                "servicesCkw": "Services",
+                "contractorServiceCkw": "Contractor Service",
+                "userAddressMapCkw": "User Address Map",
+                "contractorCkw": "Contractor",
+                "locationCkw": "Location",
+                "rateCkw": "Rate",
+                "appUserCkw": "App User",
+                "addressCkw": "Address",
+                "jobHistoryCkw": "Job History",
+                "jobTimeLogCkw": "Job Time Log",
+                "paymentCkw": "Payment",
                 "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
             },
             "account": {
