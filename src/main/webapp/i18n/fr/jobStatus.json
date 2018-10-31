@@ -1,0 +1,11 @@
+{
+    "clikawayApp": {
+        "JobStatus" : {
+            "null": "",
+            "NOT_STARTED": "NOT_STARTED",
+            "PROCESSING": "PROCESSING",
+            "COMPLETE": "COMPLETE",
+            "ASSIGNED": "ASSIGNED"
+        }
+    }
+}

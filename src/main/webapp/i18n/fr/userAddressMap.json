@@ -1,0 +1,26 @@
+
+{
+    "clikawayApp": {
+        "userAddressMap" : {
+            "home": {
+                "title": "UserAddressMaps",
+                "createLabel": "Créer un nouveau User Address Map",
+                "createOrEditLabel": "Créer ou éditer un User Address Map",
+                "search": "Recherche pour User Address Map"
+            },
+            "created": "Un nouveau User Address Map a été créé avec l'identifiant {{ param }}",
+            "updated": "Le User Address Map avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le User Address Map avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le User Address Map {{ id }} ?"
+            },
+            "detail": {
+                "title": "User Address Map"
+            },
+            "startDate": "Start Date",
+            "endDate": "End Date",
+            "appUser": "App User",
+            "address": "Address"
+        }
+    }
+}

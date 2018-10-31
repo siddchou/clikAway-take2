@@ -1,0 +1,29 @@
+
+{
+    "clikawayApp": {
+        "appUser" : {
+            "home": {
+                "title": "App Users",
+                "createLabel": "Create a new App User",
+                "createOrEditLabel": "Create or edit a App User",
+                "search": "Search for App User"
+            },
+            "created": "A new App User is created with identifier {{ param }}",
+            "updated": "A App User is updated with identifier {{ param }}",
+            "deleted": "A App User is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete App User {{ id }}?"
+            },
+            "detail": {
+                "title": "App User"
+            },
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "email": "Email",
+            "phoneNumber": "Phone Number",
+            "startDate": "Start Date",
+            "endDate": "End Date",
+            "address": "Address"
+        }
+    }
+}

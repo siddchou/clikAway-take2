@@ -1,0 +1,26 @@
+
+{
+    "clikawayApp": {
+        "jobTimeLog" : {
+            "home": {
+                "title": "JobTimeLogs",
+                "createLabel": "Créer un nouveau Job Time Log",
+                "createOrEditLabel": "Créer ou éditer un Job Time Log",
+                "search": "Recherche pour Job Time Log"
+            },
+            "created": "Un nouveau Job Time Log a été créé avec l'identifiant {{ param }}",
+            "updated": "Le Job Time Log avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le Job Time Log avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Job Time Log {{ id }} ?"
+            },
+            "detail": {
+                "title": "Job Time Log"
+            },
+            "startDate": "Start Date",
+            "endDate": "End Date",
+            "isValidated": "Is Validated",
+            "jobHistory": "Job History"
+        }
+    }
+}

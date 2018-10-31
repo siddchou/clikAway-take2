@@ -41,6 +41,20 @@ public class CacheConfiguration {
             cm.createCache(com.clikaway.app.domain.User.class.getName(), jcacheConfiguration);
             cm.createCache(com.clikaway.app.domain.Authority.class.getName(), jcacheConfiguration);
             cm.createCache(com.clikaway.app.domain.User.class.getName() + ".authorities", jcacheConfiguration);
+            cm.createCache(com.clikaway.app.domain.Category.class.getName(), jcacheConfiguration);
+            cm.createCache(com.clikaway.app.domain.Services.class.getName(), jcacheConfiguration);
+            cm.createCache(com.clikaway.app.domain.ContractorService.class.getName(), jcacheConfiguration);
+            cm.createCache(com.clikaway.app.domain.UserAddressMap.class.getName(), jcacheConfiguration);
+            cm.createCache(com.clikaway.app.domain.Contractor.class.getName(), jcacheConfiguration);
+            cm.createCache(com.clikaway.app.domain.Location.class.getName(), jcacheConfiguration);
+            cm.createCache(com.clikaway.app.domain.Rate.class.getName(), jcacheConfiguration);
+            cm.createCache(com.clikaway.app.domain.AppUser.class.getName(), jcacheConfiguration);
+            cm.createCache(com.clikaway.app.domain.AppUser.class.getName() + ".addresses", jcacheConfiguration);
+            cm.createCache(com.clikaway.app.domain.Address.class.getName(), jcacheConfiguration);
+            cm.createCache(com.clikaway.app.domain.JobHistory.class.getName(), jcacheConfiguration);
+            cm.createCache(com.clikaway.app.domain.JobHistory.class.getName() + ".jobTimeLogs", jcacheConfiguration);
+            cm.createCache(com.clikaway.app.domain.JobTimeLog.class.getName(), jcacheConfiguration);
+            cm.createCache(com.clikaway.app.domain.Payment.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }

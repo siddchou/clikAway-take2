@@ -1,0 +1,43 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="userAddressMap">
+            <h2><span jhiTranslate="clikawayApp.userAddressMap.detail.title">User Address Map</span> {{userAddressMap.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="clikawayApp.userAddressMap.startDate">Start Date</span></dt>
+                <dd>
+                    <span>{{userAddressMap.startDate}}</span>
+                </dd>
+                <dt><span jhiTranslate="clikawayApp.userAddressMap.endDate">End Date</span></dt>
+                <dd>
+                    <span>{{userAddressMap.endDate}}</span>
+                </dd>
+                <dt><span jhiTranslate="clikawayApp.userAddressMap.appUser">App User</span></dt>
+                <dd>
+                    <div *ngIf="userAddressMap.appUserId">
+                        <a [routerLink]="['/app-user-ckw', userAddressMap.appUserId, 'view']">{{userAddressMap.appUserId}}</a>
+                    </div>
+                </dd>
+                <dt><span jhiTranslate="clikawayApp.userAddressMap.address">Address</span></dt>
+                <dd>
+                    <div *ngIf="userAddressMap.addressId">
+                        <a [routerLink]="['/address-ckw', userAddressMap.addressId, 'view']">{{userAddressMap.addressId}}</a>
+                    </div>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/user-address-map-ckw', userAddressMap.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

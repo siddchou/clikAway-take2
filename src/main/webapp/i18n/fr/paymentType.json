@@ -1,0 +1,10 @@
+{
+    "clikawayApp": {
+        "PaymentType" : {
+            "null": "",
+            "DEBIT": "DEBIT",
+            "CREDIT": "CREDIT",
+            "PAYPAL": "PAYPAL"
+        }
+    }
+}
